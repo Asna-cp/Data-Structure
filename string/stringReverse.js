@@ -1,10 +1,4 @@
+const str1 = "Hello";
+const reversedString = [...str1].reverse().join('');
 
-function reverseString(str) {
-    return str.split(" ").reverse().join("");
-  }
-  
-  console.log(reverseString("help")); // Output: "olleh"
-  
-
-
-//  console.log(b.split("").reverse().join(''));
+console.log(reversedString); // Output: "!dlroW ,olleH"

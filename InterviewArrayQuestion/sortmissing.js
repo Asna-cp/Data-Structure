@@ -1,7 +1,13 @@
 //FIND  MISSING NUMBERS FROM UNSORTED ARRAY
 
-const a = [5,4,1,1,7];
-const n = 5;
+// const a = [5,4,1,1,7];
+
+//INPUTS
+// const a = [1,2,0];     
+const a= [3,4,-1,1] //2
+// const a = [-8,-7,-6]; //1
+
+const n = 4;
 
 // Implement bubble sort (you can use other sorting methods as well)
 for(let i=0;i<n;i++){
@@ -13,7 +19,6 @@ for(let i=0;i<n;i++){
         }
     }
 }
-
 const missingNumbers = [];
 
 // Iterate through the sorted array to find missing numbers

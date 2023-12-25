@@ -15,7 +15,7 @@ function missing(arr) {
     return missArray;
 }
 
-console.log(missing([1, 2, 2, 6])); //[4,5]
-// console.log(missing([-3, -2, 2, 7])); //
+// console.log(missing([1, 2, 2, 6])); //[4,5]
+console.log(missing([-3, -2, 2, 7])); //
 // console.log(missing([1, 2]));
 // console.log(missing([]));
